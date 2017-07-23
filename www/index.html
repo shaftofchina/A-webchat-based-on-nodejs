@@ -1,1 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>webchat</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/buttons.css">
+        <link rel="icon" href="star.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="star.ico" type="image/x-icon"/>
+    </head>
+    <body>
+    <filedset>
+    <legend><b><input type="button" id="status" class="button button-glow  button-rounded button-primary " value="在线人数" title="显示在线列表"></input></b></legend>
+        <div class="wrapper">
+            <div class="banner">
+            </div>
+            <div id="historyMsg">
+            </div>
+            <div class="controls" >
+                <div class="items">
+                    <input id="colorStyle" type="color" placeHolder='#000' title="改变字体颜色" />
+                    <input id="clearBtn" type="button" value="清理屏幕"  class=" button-glow button-primary button-raised button-tiny"  />
+                </div>
+                <textarea id="messageInput" placeHolder="输入消息"></textarea>
+                <input id="sendBtn" type="button" class="button-glow button-primary button-raised " value="发送">
+            </div>
+        </div>
+     <div id="footer"> Designed and code by Xiechang&Yang Xiaocheng 2017</div>
+     </fieldset>
+        <div id="loginWrapper">
+            <p id="info">正在连接服务器，请稍等...</p>
+            <div id="nickWrapper">
+                <input type="text" placeHolder="昵称" id="nicknameInput" />
+                <input type="button" value="OK" id="loginBtn" />
+            </div>
+        </div>
+        <div id="sides"  style="display: none;" >
+        <p style=" color: gray;font-size: "> 在线列表:</p>
+        </div>
 
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="scripts/main.js"></script>
+
+
+    </body>
+</html>
