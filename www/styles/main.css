@@ -1,1 +1,170 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    background:#7D7DFF url(../img/sky.jpg) ;
+}
 
+
+div p{
+    word-wrap: break-word;
+    max-width: 480px;
+}
+
+
+.wrapper {
+    width: 500px;
+    height: 610px;
+    padding: 5px;
+    margin: 0 auto;
+    background-image:url(../img/sea.jpg);
+    border-radius:20px;
+    box-shadow: 0 0 30px 10px;
+
+}
+#loginWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(5, 5, 5, .6);
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding-top: 100px;
+}
+#nickWrapper {
+    display: none;
+}
+.banner {
+    height: 50px;
+    width: 100%;
+}
+.banner p {
+    float: left;
+    display: inline-block;
+}
+.controls {
+    height: 100px;
+    margin: 5px 0px;
+    position: relative;
+
+}
+#historyMsg {
+    height: 400px;
+    max-width:495px;
+    background-color: #fff;
+    overflow:auto;
+    padding: 2px;
+    border: solid 0.5px;
+    border-radius:10px;
+    background: #F7EED6;
+}
+
+.timespan {
+    color: gray;
+}
+.items {
+    height: 30px;
+  /*  border: solid 1px;*/
+    margin: 5px 0;
+    padding: 0;
+    border-radius:10px;
+
+}
+#colorStyle {
+    width: 50px;
+    border: none;
+    padding: 0;
+    margin: 3px 3px;
+    border-radius:8px;
+}
+
+#messageInput {
+    width: 440px;
+    max-width: 440px;
+    height: 90px;
+    max-height: 90px;
+    float:left;
+    border-radius:10px;
+    background: #F7EED6;
+    padding: 2px;
+}
+#sendBtn {
+    width: 50px;
+    height: 96px;
+    float: right;
+    border-radius:8px;
+    border:none;
+}
+#status
+{
+  font-family: sans-serif;
+  color: yellow;
+  background: blue;
+  box-shadow: 0 0 30px 10px;
+}
+#clearBtn{
+      margin: 0 3px;
+      border-radius:8px;
+      background-color: gray;
+    }
+
+
+#sides
+{
+    width:135px;
+    height:615px;
+    position:absolute;
+    top:42px;
+    left:0;
+    border:none;
+    background-color:#F7EED6;
+    border-radius:15px;
+    overflow: auto;
+
+}
+
+#info{
+  text-align: center;
+  max-width: none;
+}
+#newmember
+{
+  border:solid 0.8px gray;
+}
+#footer{
+  text-align: center;
+  padding-top: 0.5em;
+}
+.conten{
+  background-color: #CCCCCC;
+  border-radius: 5px;
+  padding: 7px;
+  word-wrap: break-word;
+  margin: 0;
+  max-width:400px;
+}
+.tri{
+  width:0;
+  height:0;
+  border: solid 5px;
+  border-width: 6px;
+  border-color: transparent #CCCCCC  transparent transparent;
+  position:relative;
+  font-size: 0;
+  line-height: 0;
+}
+
+.msg{
+  font-size:0.8em;
+  border: solid 1px;
+  border-radius: 9px;
+}
+
+.show{
+  border:solid 0.8px;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 10px;
+}
