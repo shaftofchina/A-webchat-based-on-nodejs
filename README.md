@@ -12,7 +12,7 @@ Webchat
 1. 官网下载配置Nodejs.
 2. 在命令执行框中运行npm install.
 3. 在命令执行框中运行node server.
-4. 打开浏览器，访问localhost.
+4. 打开浏览器，访问localhost..
  
 特别感谢
 ---
